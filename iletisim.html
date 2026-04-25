@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAG Mekanik | İletişim</title>
+  <meta name="description" content="MAG Mekanik iletişim bilgileri, adres ve harita konumu.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="contact-page">
+  <div class="page-wrap">
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <a class="brand" href="index.html" aria-label="MAG Mekanik">
+          <img src="assets/mag-logo-clean.png" alt="MAG Mekanik logosu">
+        </a>
+        <button class="menu-btn" id="menuBtn" aria-label="Menüyü aç veya kapat">Menü</button>
+        <ul class="menu" id="menu">
+          <li><a href="index.html">Ana Sayfa</a></li>
+          <li><a href="hakkimizda.html">Hakkımızda</a></li>
+          <li><a href="hizmetler.html">Hizmetler</a></li>
+          <li><a href="referanslar.html">Referanslarımız</a></li>
+          <li><a class="active" href="iletisim.html">İletişim</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container split">
+          <div class="panel contact-block">
+            <h2>Bize Ulaşın</h2>
+            <h3>Daha da iyisi, gelin yüz yüze görüşelim.</h3>
+            <p>
+              Müşterilerimize değer veriyoruz. Mesai saatleri içinde bizi dilediğiniz
+              zaman ziyaret edebilirsiniz.
+            </p>
+
+            <h3>MAG Mekanik</h3>
+            <p>Anafartalar Mah. Rüzgarlı Cad. Uçar 2 İş Hanı, No:26/53, 06050, 06250 Altındağ/Ankara</p>
+            <p><a href="tel:+905415067615">+90 541 506 76 15</a></p>
+            <p><a href="mailto:info@magmekanik.com">info@magmekanik.com</a></p>
+
+            <h3>Çalışma Saatleri</h3>
+            <p>Pazartesi - Cumartesi: 09:00 - 18:00</p>
+            <p>Pazar: Kapalı</p>
+          </div>
+
+          <div class="panel">
+            <h3>Konum</h3>
+            <div class="map-wrap">
+              <iframe
+                title="MAG Mekanik Harita"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://maps.google.com/maps?hl=tr&ie=UTF8&q=MAG%20Mekanik%20Tesisat&z=17&output=embed"
+              ></iframe>
+            </div>
+            <div class="button-row">
+              <a
+                class="btn btn-primary"
+                href="https://www.google.com/maps/dir/?api=1&destination=MAG%20Mekanik%20Tesisat"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Yol Tarifi Al</a>
+            </div>
+
+            <form class="contact-form">
+              <h3>Bize Yazın</h3>
+              <label for="adsoyad">Ad Soyad</label>
+              <input id="adsoyad" type="text" placeholder="Adınız Soyadınız">
+
+              <label for="eposta">E-posta</label>
+              <input id="eposta" type="email" placeholder="ornek@mail.com">
+
+              <label for="mesaj">Mesaj</label>
+              <textarea id="mesaj" rows="4" placeholder="Mesajınızı yazın"></textarea>
+
+              <button class="btn btn-primary" type="button">Gönder</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-social">
+          <a href="https://wa.me/905415067615" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+        </div>
+        <p>© <span id="year"></span> MAG Mekanik. Tüm hakları saklıdır.</p>
+      </div>
+    </footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
