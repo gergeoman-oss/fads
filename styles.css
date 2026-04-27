@@ -375,10 +375,10 @@ h1 {
 }
 
 .service-photo-grid .svc-1::before { background-image: url("assets/gallery/work-031.jpg"); }
-.service-photo-grid .svc-2::before { background-image: url("assets/gallery/work-017.jpg"); }
+.service-photo-grid .svc-2::before { background-image: url("assets/gallery/work-024.jpg"); }
 .service-photo-grid .svc-3::before { background-image: url("assets/gallery/work-021.jpg"); }
 .service-photo-grid .svc-4::before { background-image: url("assets/gallery/work-040.jpg"); }
-.service-photo-grid .svc-5::before { background-image: url("assets/gallery/work-033.jpg"); }
+.service-photo-grid .svc-5::before { background-image: url("assets/gallery/work-017.jpg"); }
 .service-photo-grid .svc-6::before { background-image: url("assets/gallery/work-035.jpg"); }
 
 .timeline-wrap {
