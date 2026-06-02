@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://magmekanik.com/</loc></url>
-  <url><loc>https://magmekanik.com/hakkimizda.html</loc></url>
-  <url><loc>https://magmekanik.com/hizmetler.html</loc></url>
-  <url><loc>https://magmekanik.com/referanslar.html</loc></url>
-  <url><loc>https://magmekanik.com/iletisim.html</loc></url>
+  <url>
+    <loc>https://magmekanik.com/</loc>
+  </url>
+  <url>
+    <loc>https://magmekanik.com/hakkimizda.html</loc>
+  </url>
+  <url>
+    <loc>https://magmekanik.com/hizmetler.html</loc>
+  </url>
+  <url>
+    <loc>https://magmekanik.com/referanslar.html</loc>
+  </url>
+  <url>
+    <loc>https://magmekanik.com/iletisim.html</loc>
+  </url>
 </urlset>
