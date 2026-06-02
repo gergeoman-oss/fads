@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MAG Mekanik | Referanslarımız</title>
-  <link rel="icon" type="image/png" href="favicon.png.png">
-  <meta name="description" content="MAG Mekanik proje fotoğrafları ve saha videoları.">
+  <title>Referanslarımız | MAG Mekanik</title>
+  <meta name="description" content="MAG Mekanik'in yangın tesisatı, havalandırma, sıhhi tesisat ve mekanik altyapı uygulamalarından gerçek saha fotoğraflarını inceleyin.">
+  <link rel="icon" type="image/png" href="favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
@@ -13,54 +13,84 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="page-wrap">
-    <header class="topbar">
-      <div class="container topbar-inner">
-        <a class="brand" href="index.html" aria-label="MAG Mekanik">
-          <img src="assets/mag-logo-clean.png" alt="MAG Mekanik logosu">
-        </a>
-        <button class="menu-btn" id="menuBtn" aria-label="Menüyü aç veya kapat">Menü</button>
-        <ul class="menu" id="menu">
-          <li><a href="index.html">Ana Sayfa</a></li>
-          <li><a href="hakkimizda.html">Hakkımızda</a></li>
-          <li><a href="hizmetler.html">Hizmetler</a></li>
-          <li><a class="active" href="referanslar.html">Referanslarımız</a></li>
-          <li><a href="iletisim.html">İletişim</a></li>
-        </ul>
+  <div class="site-shell">
+    <div class="utility-bar">
+      <div class="container utility-inner">
+        <div class="utility-links">
+          <a href="tel:+905349350100"><i class="bi bi-telephone"></i> +90 534 935 01 00</a>
+          <a href="mailto:magmekanikmag@gmail.com"><i class="bi bi-envelope"></i> magmekanikmag@gmail.com</a>
+        </div>
+        <span><i class="bi bi-geo-alt"></i> Ankara merkezli, Türkiye genelinde hizmet</span>
+      </div>
+    </div>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="MAG Mekanik ana sayfa"><img src="assets/mag-logo-clean.png" alt="MAG Mekanik logosu"></a>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Menüyü aç veya kapat" aria-expanded="false" aria-controls="siteNav"><span></span><span></span><span></span></button>
+        <nav class="site-nav" id="siteNav" aria-label="Ana menü">
+          <a href="index.html">Ana Sayfa</a>
+          <a href="hakkimizda.html">Hakkımızda</a>
+          <a href="hizmetler.html">Hizmetler</a>
+          <a class="active" href="referanslar.html">Referanslarımız</a>
+          <a href="iletisim.html">İletişim</a>
+          <a class="nav-cta" href="iletisim.html"><span>Projenizi Konuşalım</span><i class="bi bi-arrow-up-right"></i></a>
+        </nav>
       </div>
     </header>
 
     <main>
+      <section class="page-hero" style="background-image:url('assets/gallery/work-037.jpg')">
+        <div class="container page-hero-inner reveal">
+          <div class="breadcrumbs"><a href="index.html">Ana Sayfa</a><span>/</span><span>Referanslarımız</span></div>
+          <h1>Sahadaki uygulama kalitemizi yakından inceleyin.</h1>
+          <p>Galerimizde yer alan görseller MAG Mekanik ekibinin gerçek saha uygulamalarından seçilmiştir.</p>
+        </div>
+      </section>
+
       <section class="section">
         <div class="container">
-          <div class="ref-head">
-            <h2>Referanslarımız</h2>
-            <a href="iletisim.html">Yeni Proje İçin İletişim</a>
+          <div class="gallery-head reveal">
+            <div>
+              <p class="section-tag">PROJE GALERİSİ</p>
+              <h2>Uygulamalarımızdan kareler</h2>
+            </div>
+            <div class="gallery-filter" aria-label="Referans galerisi filtreleri">
+              <button class="filter-btn active" type="button" data-gallery-filter="all">Tümü</button>
+              <button class="filter-btn" type="button" data-gallery-filter="yangin">Yangın</button>
+              <button class="filter-btn" type="button" data-gallery-filter="havalandirma">Havalandırma</button>
+              <button class="filter-btn" type="button" data-gallery-filter="mekanik">Mekanik Altyapı</button>
+              <button class="filter-btn" type="button" data-gallery-filter="sihhi">Sıhhi Tesisat</button>
+            </div>
           </div>
-          <p class="muted">
-            Tüm görseller MAG Mekanik saha uygulamalarından alınmıştır.
-          </p>
-
-          <div class="gallery-video">
-            <video controls preload="metadata" src="assets/gallery/work-video.mp4"></video>
-          </div>
-
           <div class="gallery-grid" id="galleryGrid"></div>
+        </div>
+      </section>
+
+      <section class="cta-section">
+        <div class="container cta-inner reveal">
+          <div>
+            <p class="section-tag section-tag-light">YENİ PROJENİZ İÇİN</p>
+            <h2>Benzer bir uygulama için teknik ekibimizle görüşün.</h2>
+            <p>Projenizin kapsamını paylaşın, doğru çözümü ve uygulama planını birlikte netleştirelim.</p>
+          </div>
+          <div class="cta-actions">
+            <a class="btn btn-light" href="iletisim.html">Teklif Alın <i class="bi bi-arrow-right"></i></a>
+            <a class="btn btn-outline-light" href="https://wa.me/905415067615" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-social">
-          <a href="https://wa.me/905415067615" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-          <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
-        </div>
-        <p>© <span id="year"></span> MAG Mekanik. Tüm hakları saklıdır.</p>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand"><a class="brand" href="index.html"><img src="assets/mag-logo-clean.png" alt="MAG Mekanik logosu"></a><p>Güvenilir, planlı ve uzun ömürlü mekanik tesisat çözümleri.</p></div>
+        <div><h3>Hızlı Menü</h3><ul class="footer-links"><li><a href="index.html">Ana Sayfa</a></li><li><a href="hakkimizda.html">Hakkımızda</a></li><li><a href="hizmetler.html">Hizmetler</a></li><li><a href="referanslar.html">Referanslarımız</a></li></ul></div>
+        <div><h3>İletişim</h3><ul class="footer-links"><li><a href="tel:+905349350100">+90 534 935 01 00</a></li><li><a href="mailto:magmekanikmag@gmail.com">magmekanikmag@gmail.com</a></li><li><a href="iletisim.html">Anafartalar Mah., Altındağ / Ankara</a></li></ul></div>
+        <div><h3>Çalışma Saatleri</h3><ul class="footer-links"><li>Pazartesi - Cumartesi</li><li>09:00 - 18:00</li></ul><a class="footer-whatsapp" href="https://wa.me/905415067615" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i> WhatsApp'tan Yazın</a></div>
       </div>
+      <div class="container footer-bottom"><p>© <span data-year></span> MAG Mekanik. Tüm hakları saklıdır.</p><span>Mekanik Tesisat · Yangın · Havalandırma · Sıhhi Tesisat</span></div>
     </footer>
+    <a class="floating-whatsapp" href="https://wa.me/905415067615" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp'tan yazın"><i class="bi bi-whatsapp"></i><span>WhatsApp</span></a>
   </div>
   <script src="main.js"></script>
 </body>

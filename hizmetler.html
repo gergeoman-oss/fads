@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MAG Mekanik | Yangın Sistemleri Havalandırma Sıhhi Tesisat</title>
-  <link rel="icon" type="image/png" href="favicon.png.png">
-  <meta name="description" content="MAG Mekanik hizmet alanları: yangın tesisatı, havalandırma, sıhhi tesisat ve endüstriyel mekanik sistemler.">
+  <title>Hizmetler | MAG Mekanik</title>
+  <meta name="description" content="MAG Mekanik yangın tesisatı, havalandırma, sıhhi tesisat, pompa dairesi, endüstriyel mekanik altyapı, keşif ve danışmanlık hizmetleri.">
+  <link rel="icon" type="image/png" href="favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
@@ -13,72 +13,139 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="page-wrap">
-    <header class="topbar">
-      <div class="container topbar-inner">
-        <a class="brand" href="index.html" aria-label="MAG Mekanik">
-          <img src="assets/mag-logo-clean.png" alt="MAG Mekanik logosu">
-        </a>
-        <button class="menu-btn" id="menuBtn" aria-label="Menüyü aç veya kapat">Menü</button>
-        <ul class="menu" id="menu">
-          <li><a href="index.html">Ana Sayfa</a></li>
-          <li><a href="hakkimizda.html">Hakkımızda</a></li>
-          <li><a class="active" href="hizmetler.html">Hizmetler</a></li>
-          <li><a href="referanslar.html">Referanslarımız</a></li>
-          <li><a href="iletisim.html">İletişim</a></li>
-        </ul>
+  <div class="site-shell">
+    <div class="utility-bar">
+      <div class="container utility-inner">
+        <div class="utility-links">
+          <a href="tel:+905349350100"><i class="bi bi-telephone"></i> +90 534 935 01 00</a>
+          <a href="mailto:magmekanikmag@gmail.com"><i class="bi bi-envelope"></i> magmekanikmag@gmail.com</a>
+        </div>
+        <span><i class="bi bi-geo-alt"></i> Ankara merkezli, Türkiye genelinde hizmet</span>
+      </div>
+    </div>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="MAG Mekanik ana sayfa"><img src="assets/mag-logo-clean.png" alt="MAG Mekanik logosu"></a>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Menüyü aç veya kapat" aria-expanded="false" aria-controls="siteNav"><span></span><span></span><span></span></button>
+        <nav class="site-nav" id="siteNav" aria-label="Ana menü">
+          <a href="index.html">Ana Sayfa</a>
+          <a href="hakkimizda.html">Hakkımızda</a>
+          <a class="active" href="hizmetler.html">Hizmetler</a>
+          <a href="referanslar.html">Referanslarımız</a>
+          <a href="iletisim.html">İletişim</a>
+          <a class="nav-cta" href="iletisim.html"><span>Projenizi Konuşalım</span><i class="bi bi-arrow-up-right"></i></a>
+        </nav>
       </div>
     </header>
 
     <main>
+      <section class="page-hero" style="background-image:url('assets/gallery/work-031.jpg')">
+        <div class="container page-hero-inner reveal">
+          <div class="breadcrumbs"><a href="index.html">Ana Sayfa</a><span>/</span><span>Hizmetler</span></div>
+          <h1>Projeye özel, uzun ömürlü mekanik tesisat sistemleri.</h1>
+          <p>Keşiften uygulamaya, montajdan devreye almaya kadar tüm teknik süreçleri koordineli biçimde yönetiyoruz.</p>
+        </div>
+      </section>
+
       <section class="section">
         <div class="container">
-          <h2>Hizmet Alanlarımız</h2>
-          <p class="muted">
-            Projeye özel mühendislik yaklaşımıyla mekanik sistemlerin tamamını
-            planlayıp uyguluyoruz.
-          </p>
-          <div class="service-grid service-photo-grid">
-            <article id="yangin" class="service-photo-card svc-1">
-              <h3>Yangın Tesisatı</h3>
-              <p class="muted">Sprinkler, hidrant, yangın pompa dairesi ve sistem devreye alma hizmetleri.</p>
+          <div class="section-heading reveal">
+            <div>
+              <p class="section-tag">HİZMET ALANLARIMIZ</p>
+              <h2>İhtiyacınız olan teknik çözümü tek ekip disipliniyle kuruyoruz.</h2>
+            </div>
+            <p>Uygulamalarımızı proje detayları, saha koşulları ve işletme ihtiyaçlarına göre planlıyoruz.</p>
+          </div>
+
+          <div class="service-detail-grid">
+            <article class="service-detail reveal" id="yangin">
+              <img class="detail-image" src="assets/gallery/work-031.jpg" alt="Yangın tesisatı">
+              <div class="service-detail-content">
+                <span>01 · GÜVENLİK SİSTEMLERİ</span>
+                <h2>Yangın Tesisatı</h2>
+                <p>Yapılarınızın yangın güvenliğini standartlara uygun sistemlerle destekliyor; uygulamayı kontrollü biçimde devreye alıyoruz.</p>
+                <ul class="inline-list"><li>Sprinkler sistemleri</li><li>Hidrant hatları</li><li>Yangın pompa dairesi</li><li>Test ve devreye alma</li></ul>
+              </div>
             </article>
-            <article id="havalandirma" class="service-photo-card svc-2">
-              <h3>Havalandırma Sistemleri</h3>
-              <p class="muted">Hava kanalı imalatı, montajı, fan ve klima santrali bağlantı uygulamaları.</p>
+
+            <article class="service-detail reveal" id="havalandirma">
+              <img class="detail-image" src="assets/gallery/work1.jpeg" alt="Havalandırma sistemleri">
+              <div class="service-detail-content">
+                <span>02 · İKLİMLENDİRME</span>
+                <h2>Havalandırma Sistemleri</h2>
+                <p>İç ortam konforu ve hava kalitesi için projeye uygun kanal, fan ve klima santrali bağlantı uygulamaları gerçekleştiriyoruz.</p>
+                <ul class="inline-list"><li>Hava kanalı imalatı</li><li>Kanal montajı</li><li>Fan bağlantıları</li><li>Klima santralleri</li></ul>
+              </div>
             </article>
-            <article id="sihhi" class="service-photo-card svc-3">
-              <h3>Sıhhi Tesisat</h3>
-              <p class="muted">Temiz su, atık su, yağmur suyu, sıcak su ve dağıtım hatlarının kurulumu.</p>
+
+            <article class="service-detail reveal" id="sihhi">
+              <img class="detail-image" src="assets/gallery/work-021.jpg" alt="Sıhhi tesisat">
+              <div class="service-detail-content">
+                <span>03 · YAPI TESİSATI</span>
+                <h2>Sıhhi Tesisat</h2>
+                <p>Konut, ticari yapı ve endüstriyel alanlarda temiz su, atık su ve dağıtım hatlarını işletme ihtiyaçlarına göre kuruyoruz.</p>
+                <ul class="inline-list"><li>Temiz su hatları</li><li>Atık su hatları</li><li>Yağmur suyu</li><li>Sıcak su dağıtımı</li></ul>
+              </div>
             </article>
-            <article id="pompa" class="service-photo-card svc-4">
-              <h3>Pompa Dairesi Kurulumu</h3>
-              <p class="muted">Pompa grupları, kollektör hatları, vana ekipmanları ve otomasyon entegrasyonu.</p>
+
+            <article class="service-detail reveal" id="pompa">
+              <img class="detail-image" src="assets/gallery/work-040.jpg" alt="Pompa dairesi kurulumu">
+              <div class="service-detail-content">
+                <span>04 · TEKNİK MERKEZ</span>
+                <h2>Pompa Dairesi Kurulumu</h2>
+                <p>Pompa gruplarından kollektör hatlarına, vana ekipmanlarından otomasyona kadar sistemin tüm bileşenlerini koordineli kuruyoruz.</p>
+                <ul class="inline-list"><li>Pompa grupları</li><li>Kollektör hatları</li><li>Vana ekipmanları</li><li>Otomasyon entegrasyonu</li></ul>
+              </div>
             </article>
-            <article id="endustriyel" class="service-photo-card svc-5">
-              <h3>Endüstriyel Mekanik Altyapı</h3>
-              <p class="muted">Fabrika, depo ve üretim tesisleri için yüksek kapasiteli mekanik hat uygulamaları.</p>
+
+            <article class="service-detail reveal" id="endustriyel">
+              <img class="detail-image" src="assets/gallery/work-017.jpg" alt="Endüstriyel mekanik altyapı">
+              <div class="service-detail-content">
+                <span>05 · ENDÜSTRİYEL ÇÖZÜMLER</span>
+                <h2>Endüstriyel Mekanik Altyapı</h2>
+                <p>Fabrika, depo ve üretim tesisleri için yoğun kullanıma uygun, sürdürülebilir ve bakımı kolay mekanik altyapılar oluşturuyoruz.</p>
+                <ul class="inline-list"><li>Fabrika uygulamaları</li><li>Üretim tesisleri</li><li>Yüksek kapasiteli hatlar</li><li>Depo altyapıları</li></ul>
+              </div>
             </article>
-            <article class="service-photo-card svc-6">
-              <h3>Keşif ve Danışmanlık</h3>
-              <p class="muted">Saha keşfi, teknik metraj, malzeme planlaması ve uygulama danışmanlığı.</p>
+
+            <article class="service-detail reveal" id="danismanlik">
+              <img class="detail-image" src="assets/gallery/work-035.jpg" alt="Keşif ve danışmanlık">
+              <div class="service-detail-content">
+                <span>06 · PROJE DESTEĞİ</span>
+                <h2>Keşif ve Danışmanlık</h2>
+                <p>Doğru çözümün ilk adımı olan keşif sürecini titizlikle yürütüyor, uygulama öncesinde ihtiyaçları ve kapsamı netleştiriyoruz.</p>
+                <ul class="inline-list"><li>Saha keşfi</li><li>Teknik metraj</li><li>Malzeme planlaması</li><li>Uygulama danışmanlığı</li></ul>
+              </div>
             </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section">
+        <div class="container cta-inner reveal">
+          <div>
+            <p class="section-tag section-tag-light">YENİ PROJENİZ İÇİN</p>
+            <h2>Hangi çözüme ihtiyaç duyduğunuzu birlikte belirleyelim.</h2>
+            <p>Saha koşullarına uygun teknik yaklaşım ve net planlama için ekibimize ulaşın.</p>
+          </div>
+          <div class="cta-actions">
+            <a class="btn btn-light" href="iletisim.html">Teklif Alın <i class="bi bi-arrow-right"></i></a>
+            <a class="btn btn-outline-light" href="https://wa.me/905415067615" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i> WhatsApp</a>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-social">
-          <a href="https://wa.me/905415067615" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-          <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
-        </div>
-        <p>© <span id="year"></span> MAG Mekanik. Tüm hakları saklıdır.</p>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand"><a class="brand" href="index.html"><img src="assets/mag-logo-clean.png" alt="MAG Mekanik logosu"></a><p>Güvenilir, planlı ve uzun ömürlü mekanik tesisat çözümleri.</p></div>
+        <div><h3>Hızlı Menü</h3><ul class="footer-links"><li><a href="index.html">Ana Sayfa</a></li><li><a href="hakkimizda.html">Hakkımızda</a></li><li><a href="hizmetler.html">Hizmetler</a></li><li><a href="referanslar.html">Referanslarımız</a></li></ul></div>
+        <div><h3>İletişim</h3><ul class="footer-links"><li><a href="tel:+905349350100">+90 534 935 01 00</a></li><li><a href="mailto:magmekanikmag@gmail.com">magmekanikmag@gmail.com</a></li><li><a href="iletisim.html">Anafartalar Mah., Altındağ / Ankara</a></li></ul></div>
+        <div><h3>Çalışma Saatleri</h3><ul class="footer-links"><li>Pazartesi - Cumartesi</li><li>09:00 - 18:00</li></ul><a class="footer-whatsapp" href="https://wa.me/905415067615" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i> WhatsApp'tan Yazın</a></div>
       </div>
+      <div class="container footer-bottom"><p>© <span data-year></span> MAG Mekanik. Tüm hakları saklıdır.</p><span>Mekanik Tesisat · Yangın · Havalandırma · Sıhhi Tesisat</span></div>
     </footer>
+    <a class="floating-whatsapp" href="https://wa.me/905415067615" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp'tan yazın"><i class="bi bi-whatsapp"></i><span>WhatsApp</span></a>
   </div>
   <script src="main.js"></script>
 </body>

@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MAG Mekanik | Hakkımızda</title>
-  <link rel="icon" type="image/png" href="favicon.png.png">
-  <meta name="description" content="MAG Mekanik hakkında bilgiler, çalışma prensipleri ve uzmanlık alanları.">
+  <title>Hakkımızda | MAG Mekanik</title>
+  <meta name="description" content="MAG Mekanik'in kurumsal yaklaşımı, çalışma prensipleri, vizyonu ve mekanik tesisat uygulamalarındaki uzmanlığı hakkında bilgi alın.">
+  <link rel="icon" type="image/png" href="favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
@@ -13,104 +13,133 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="page-wrap">
-    <header class="topbar">
-      <div class="container topbar-inner">
-        <a class="brand" href="index.html" aria-label="MAG Mekanik">
-          <img src="assets/mag-logo-clean.png" alt="MAG Mekanik logosu">
-        </a>
-        <button class="menu-btn" id="menuBtn" aria-label="Menüyü aç veya kapat">Menü</button>
-        <ul class="menu" id="menu">
-          <li><a href="index.html">Ana Sayfa</a></li>
-          <li><a class="active" href="hakkimizda.html">Hakkımızda</a></li>
-          <li><a href="hizmetler.html">Hizmetler</a></li>
-          <li><a href="referanslar.html">Referanslarımız</a></li>
-          <li><a href="iletisim.html">İletişim</a></li>
-        </ul>
+  <div class="site-shell">
+    <div class="utility-bar">
+      <div class="container utility-inner">
+        <div class="utility-links">
+          <a href="tel:+905349350100"><i class="bi bi-telephone"></i> +90 534 935 01 00</a>
+          <a href="mailto:magmekanikmag@gmail.com"><i class="bi bi-envelope"></i> magmekanikmag@gmail.com</a>
+        </div>
+        <span><i class="bi bi-geo-alt"></i> Ankara merkezli, Türkiye genelinde hizmet</span>
+      </div>
+    </div>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="MAG Mekanik ana sayfa"><img src="assets/mag-logo-clean.png" alt="MAG Mekanik logosu"></a>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Menüyü aç veya kapat" aria-expanded="false" aria-controls="siteNav"><span></span><span></span><span></span></button>
+        <nav class="site-nav" id="siteNav" aria-label="Ana menü">
+          <a href="index.html">Ana Sayfa</a>
+          <a class="active" href="hakkimizda.html">Hakkımızda</a>
+          <a href="hizmetler.html">Hizmetler</a>
+          <a href="referanslar.html">Referanslarımız</a>
+          <a href="iletisim.html">İletişim</a>
+          <a class="nav-cta" href="iletisim.html"><span>Projenizi Konuşalım</span><i class="bi bi-arrow-up-right"></i></a>
+        </nav>
       </div>
     </header>
 
     <main>
-      <section class="section">
-        <div class="container">
-          <div class="about-grid">
-            <article class="panel about-card">
-              <img class="about-thumb" src="assets/gallery/work-025.jpg" alt="MAG Mekanik saha uygulaması">
-              <div>
-                <h2>MAG Mekanik Kimdir?</h2>
-                <p class="muted">
-                  MAG Mekanik; ticari, endüstriyel ve konut projelerinde mekanik tesisat
-                  sistemlerini anahtar teslim yaklaşımla planlayan ve uygulayan bir teknik ekiptir.
-                  Projelendirme, uygulama, test ve devreye alma aşamalarını tek ekip organizasyonuyla yürütür.
-                </p>
-              </div>
-            </article>
-
-            <article class="panel about-card">
-              <img class="about-thumb" src="assets/gallery/work-026.jpg" alt="MAG Mekanik proje süreci">
-              <div>
-                <h2>Çalışma Prensibimiz</h2>
-                <p class="muted">1. İhtiyacı doğru analiz etmek</p>
-                <p class="muted">2. Projeye uygun teknik çözümü belirlemek</p>
-                <p class="muted">3. Sahada temiz ve planlı uygulama yapmak</p>
-                <p class="muted">4. Zamanında teslim ve sorunsuz devreye alma sağlamak</p>
-              </div>
-            </article>
-          </div>
+      <section class="page-hero" style="background-image:url('assets/gallery/work-036.jpg')">
+        <div class="container page-hero-inner reveal">
+          <div class="breadcrumbs"><a href="index.html">Ana Sayfa</a><span>/</span><span>Hakkımızda</span></div>
+          <h1>Teknik disiplini güçlü uygulamalarla buluşturuyoruz.</h1>
+          <p>Projelerinize yalnızca montaj değil; planlı süreç yönetimi, teknik güven ve uzun vadeli değer katıyoruz.</p>
         </div>
       </section>
 
       <section class="section">
-        <div class="container">
-          <div class="about-grid">
-            <article class="panel about-card">
-              <img class="about-thumb" src="assets/gallery/work-034.jpg" alt="MAG Mekanik kalite yaklaşımı">
-              <div>
-                <h2>Vizyonumuz</h2>
-                <p class="muted">
-                  Türkiye genelinde mekanik tesisat uygulamalarında güvenilirlik, teknik kalite
-                  ve iş disipliniyle ilk akla gelen markalardan biri olmak; projelere sadece montaj değil,
-                  uzun ömürlü mühendislik değeri katmak.
-                </p>
-              </div>
-            </article>
-            <article class="panel about-card">
-              <img class="about-thumb" src="assets/gallery/work-032.jpg" alt="MAG Mekanik sürdürülebilir çözümler">
-              <div>
-                <h2>Misyonumuz</h2>
-                <p class="muted">
-                  Her projede doğru keşif, şeffaf süreç yönetimi ve standartlara uygun uygulama ile
-                  müşterilerimize güvenli, verimli ve sürdürülebilir mekanik tesisat çözümleri sunmak.
-                </p>
-              </div>
-            </article>
+        <div class="container content-grid">
+          <div class="content-media reveal"><img src="assets/gallery/work-025.jpg" alt="MAG Mekanik saha uygulaması"></div>
+          <div class="section-copy reveal">
+            <p class="section-tag">BİZ KİMİZ?</p>
+            <h2>Her projede aynı özen, her detayda aynı disiplin.</h2>
+            <p>
+              MAG Mekanik; ticari, endüstriyel ve konut projelerinde mekanik tesisat sistemlerini
+              anahtar teslim yaklaşımla planlayan ve uygulayan teknik bir ekiptir.
+            </p>
+            <p>
+              Projelendirme, keşif, uygulama, test ve devreye alma aşamalarını tek ekip
+              organizasyonuyla yürütür; iş programına uyumlu, temiz ve güvenilir çözümler üretiriz.
+            </p>
+            <p>
+              Sahadaki tecrübemizi doğru malzeme seçimi ve şeffaf iletişimle destekleyerek
+              müşterilerimiz için sürdürülebilir sonuçlara odaklanırız.
+            </p>
           </div>
         </div>
       </section>
 
-      <section class="section">
+      <section class="section services-section">
         <div class="container">
-          <h2>Rakamlarla MAG Mekanik</h2>
-          <div class="stats-grid">
-            <article><strong>400+</strong><span>Tamamlanan İş</span></article>
-            <article><strong>35</strong><span>Uzman Ekip</span></article>
-            <article><strong>81</strong><span>Hizmet Verilen İl</span></article>
+          <div class="section-heading reveal">
+            <div>
+              <p class="section-tag">DEĞERLERİMİZ</p>
+              <h2>İşimizi yönlendiren temel ilkeler</h2>
+            </div>
+            <p>İyi bir mekanik tesisat projesinin yalnızca montajdan ibaret olmadığını biliyor, her aşamaya aynı ciddiyetle yaklaşıyoruz.</p>
+          </div>
+          <div class="value-grid">
+            <article class="value-card reveal"><i class="bi bi-shield-check"></i><h3>Güvenilirlik</h3><p>Verdiğimiz sözü, belirlediğimiz kapsamı ve iş programını titizlikle takip ederiz.</p></article>
+            <article class="value-card reveal"><i class="bi bi-rulers"></i><h3>Teknik Kalite</h3><p>Uygulamaları standartlara ve uzun dönem işletme ihtiyaçlarına uygun kurarız.</p></article>
+            <article class="value-card reveal"><i class="bi bi-calendar2-check"></i><h3>Planlı Süreç</h3><p>Keşiften teslime kadar tüm aşamaları ölçülü ve koordineli biçimde yönetiriz.</p></article>
+            <article class="value-card reveal"><i class="bi bi-chat-square-text"></i><h3>Şeffaf İletişim</h3><p>Projenin her adımında anlaşılır, erişilebilir ve çözüm odaklı iletişim kurarız.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-dark">
+        <div class="container metrics-grid">
+          <article><strong>400<sup>+</sup></strong><span>Tamamlanan İş</span></article>
+          <article><strong>35</strong><span>Uzman Ekip</span></article>
+          <article><strong>81</strong><span>İlde Hizmet</span></article>
+          <article><strong>360°</strong><span>Proje Yönetimi</span></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container content-grid reverse">
+          <div class="content-media reveal"><img src="assets/gallery/work-034.jpg" alt="MAG Mekanik kalite yaklaşımı"></div>
+          <div class="section-copy reveal">
+            <p class="section-tag">VİZYON VE MİSYON</p>
+            <h2>Uzun ömürlü mühendislik değeri üretmek.</h2>
+            <p>
+              Türkiye genelinde mekanik tesisat uygulamalarında güvenilirlik, teknik kalite
+              ve iş disipliniyle ilk akla gelen markalardan biri olmayı hedefliyoruz.
+            </p>
+            <p>
+              Her projede doğru keşif, şeffaf süreç yönetimi ve standartlara uygun uygulama ile
+              güvenli, verimli ve sürdürülebilir mekanik tesisat çözümleri sunuyoruz.
+            </p>
+            <a class="text-link" href="iletisim.html">Yeni projenizi konuşalım <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section">
+        <div class="container cta-inner reveal">
+          <div>
+            <p class="section-tag section-tag-light">YENİ PROJENİZ İÇİN</p>
+            <h2>Teknik ihtiyaçlarınızı birlikte değerlendirelim.</h2>
+            <p>Doğru keşif, net planlama ve güvenilir uygulama için ekibimizle iletişime geçin.</p>
+          </div>
+          <div class="cta-actions">
+            <a class="btn btn-light" href="iletisim.html">Teklif Alın <i class="bi bi-arrow-right"></i></a>
+            <a class="btn btn-outline-light" href="https://wa.me/905415067615" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i> WhatsApp</a>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-social">
-          <a href="https://wa.me/905415067615" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-          <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
-        </div>
-        <p>© <span id="year"></span> MAG Mekanik. Tüm hakları saklıdır.</p>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand"><a class="brand" href="index.html"><img src="assets/mag-logo-clean.png" alt="MAG Mekanik logosu"></a><p>Güvenilir, planlı ve uzun ömürlü mekanik tesisat çözümleri.</p></div>
+        <div><h3>Hızlı Menü</h3><ul class="footer-links"><li><a href="index.html">Ana Sayfa</a></li><li><a href="hakkimizda.html">Hakkımızda</a></li><li><a href="hizmetler.html">Hizmetler</a></li><li><a href="referanslar.html">Referanslarımız</a></li></ul></div>
+        <div><h3>İletişim</h3><ul class="footer-links"><li><a href="tel:+905349350100">+90 534 935 01 00</a></li><li><a href="mailto:magmekanikmag@gmail.com">magmekanikmag@gmail.com</a></li><li><a href="iletisim.html">Anafartalar Mah., Altındağ / Ankara</a></li></ul></div>
+        <div><h3>Çalışma Saatleri</h3><ul class="footer-links"><li>Pazartesi - Cumartesi</li><li>09:00 - 18:00</li></ul><a class="footer-whatsapp" href="https://wa.me/905415067615" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i> WhatsApp'tan Yazın</a></div>
       </div>
+      <div class="container footer-bottom"><p>© <span data-year></span> MAG Mekanik. Tüm hakları saklıdır.</p><span>Mekanik Tesisat · Yangın · Havalandırma · Sıhhi Tesisat</span></div>
     </footer>
+    <a class="floating-whatsapp" href="https://wa.me/905415067615" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp'tan yazın"><i class="bi bi-whatsapp"></i><span>WhatsApp</span></a>
   </div>
   <script src="main.js"></script>
 </body>
