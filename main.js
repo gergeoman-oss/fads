@@ -21,10 +21,6 @@ if (menuToggle && siteNav) {
   });
 }
 
-document.querySelectorAll("[data-year]").forEach((element) => {
-  element.textContent = new Date().getFullYear();
-});
-
 const slides = Array.from(document.querySelectorAll(".hero-slide"));
 if (slides.length > 1) {
   let activeSlide = 0;
@@ -141,6 +137,6 @@ if (contactForm) {
     ].filter(Boolean).join("\n");
 
     if (note) note.textContent = "Talebiniz WhatsApp mesajına dönüştürüldü. Göndermek için açılan ekrandan devam edin.";
-    window.open(`https://wa.me/905415067615?text=${encodeURIComponent(whatsappMessage)}`, "_blank", "noopener,noreferrer");
+    window.open(`https://wa.me/905349350100?text=${encodeURIComponent(whatsappMessage)}`, "_blank", "noopener,noreferrer");
   });
 }
